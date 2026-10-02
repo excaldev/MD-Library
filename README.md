@@ -9,11 +9,19 @@ Current collections:
 
 claude-design: skills for design work with Claude.
 motion-pro: motion and animation skill.
+cinematic-ui-demo: cinematic product-demo / promo motion graphics, with a simulated cursor, reactive UI and a camera that pans and zooms with the action. Outputs a self-contained, screen-recordable HTML page.
+
+Skills that ship supporting files (scripts, images) live in their own folder, with a `SKILL.md` and an `assets/` directory beside it.
 ```
 Library-of-Mds/
 ├── README.md
 └── claude-design/
-    └── motion-pro.md
+    ├── motion-pro.md
+    └── cinematic-ui-demo/
+        ├── SKILL.md
+        └── assets/
+            ├── cursor.svg
+            └── timeline-engine.js
 ```
 # Contributing
 - Fork the repo and create a branch.
